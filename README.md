@@ -1,6 +1,8 @@
 # :hammer: Projeto TrybeSmith
 
-Nesse projeto foi desenvolvida uma API REST... (descrever)
+Nesse projeto foi desenvolvida uma API para leitura e escrita de produtos e pedidos utilizando o Typescript.
+
+O objetivo principal foi de exercitar os conhecimentos sobre types e interfaces do Typescript, além da impletamentação de middleware de erros e os conceitos da arquitetura MSC (Model, Service e Controller).
 
 O desenvolvimento desse projeto foi realizado durante o curso de Desenvolvimento Web na [Trybe](https://www.betrybe.com/)!
 
@@ -61,23 +63,16 @@ O projeto está rodando na porta `3000`. Seguem as rotas que podem ser acessadas
   `/login`: </br>
     - POST: realiza login para usuário existente;
 
-  `/products`: </br>
-    <!-- - POST: cria novo usuário; </br>
-    - GET: lista os usuários cadastrados; </br>
-    - GET: `/user/:id` traz as informações do usuário conforme id; </br>
-    - DELETE: `/user/me` exclui o cadastro do usuário logado; -->
-
   `/users`: </br>
-    <!-- - GET: lista as categorias de post disponíveis; </br>
-    - POST: cria nova categoria para os posts; -->
+    - POST: registra novo usuário;
+
+  `/products`: </br>
+    - POST: cria novo produto; </br>
+    - GET: lista os produtos cadastrados;
     
   `/orders`: </br>
-    <!-- - POST: cria novo post para o blog; </br>
-    - GET: lista todos os posts; </br>
-    - GET: `/post/:id` traz as informações do post conforme id; </br>
-    - GET: `/post/search` lista todos os posts que contenha a palavra pesquisada (request query); </br>
-    - PUT: `/post/:id` atualiza as informações do post conforme id; </br>
-    - DELETE: `/post/:id` deleta as informações do post conforme id; </br> -->
+    - GET: lista todos os pedidos;
+    - POST: cria novo pedido para determinada lista de produtos; </br>
 
 Utilize o seu client preferido para testar as rotas acima.
 
