@@ -1,4 +1,4 @@
-# 📑 Projeto TrybeSmith
+# :hammer: Projeto TrybeSmith
 
 Nesse projeto foi desenvolvida uma API REST... (descrever)
 
@@ -6,7 +6,7 @@ O desenvolvimento desse projeto foi realizado durante o curso de Desenvolvimento
 
 ## Como utilizar:
 
-Clone o repositório: `git clone [link do clone]`.
+Clone o repositório: `git clone git@github.com:fa-biano/trybesmith.git`.
 
 <details>
   <summary><strong>Rodando com Docker :whale: ou Localmente</strong></summary>
@@ -54,7 +54,7 @@ Clone o repositório: `git clone [link do clone]`.
   Para criar a estrutura básica do Banco de Dados:
   - Copie o conteúdo do arquivo `Trybesmith.sql` para um SGBD (Sistema Gerenciador de Banco de Dados), exemplo MySql Workbench. E execute todas as queries.
 
-## Rotas:
+## :mailbox_with_no_mail: Rotas:
 
 O projeto está rodando na porta `3000`. Seguem as rotas que podem ser acessadas:
 
@@ -81,7 +81,7 @@ O projeto está rodando na porta `3000`. Seguem as rotas que podem ser acessadas
 
 Utilize o seu client preferido para testar as rotas acima.
 
-## Tecnologias utilizadas:
+## :fire: Tecnologias utilizadas:
 
   **Back-end:** Node.js, Typescript, Express e JWT (jsonwebtoken) para Autenticação </br>
   **Banco de Dados:** SQL MySQL </br>
