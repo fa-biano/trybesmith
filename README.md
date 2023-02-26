@@ -2,7 +2,7 @@
 
 Nesse projeto foi desenvolvida uma API para leitura e escrita de produtos e pedidos utilizando o Typescript.
 
-O objetivo principal foi de exercitar os conhecimentos sobre types e interfaces do Typescript, além da impletamentação de middleware de erros e os conceitos da arquitetura MSC (Model, Service e Controller).
+O objetivo principal foi de exercitar os conhecimentos sobre types e interfaces do Typescript, além da implementação de middleware de erros e os conceitos da arquitetura MSC (Model, Service e Controller).
 
 O desenvolvimento desse projeto foi realizado durante o curso de Desenvolvimento Web na [Trybe](https://www.betrybe.com/)!
 
